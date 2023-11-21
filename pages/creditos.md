@@ -4,7 +4,7 @@ title: Créditos y contacto
 permalink: '/creditos/'
 ---
 
-Diseño y construcción del archivo: <a href="srsergiorodriguez.github.io" target="_blank">Sergio Rodríguez Gómez</a>
+Diseño y construcción del archivo: <a href="https://srsergiorodriguez.github.io/" target="_blank">Sergio Rodríguez Gómez</a>
 
 **Contacto:**
 ssergiorodriguezz(at)gmail.com

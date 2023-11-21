@@ -17,7 +17,7 @@ Es un archivo digital porque contiene reproducciones digitalizadas de piezas fí
 
 Concretamente, es un archivo de zines, es decir, publicaciones autogestionadas, de tiraje corto, normalmente reproducidas por medios no industriales como fotocopias, risografía, serigrafía o interveciones manuales, que suele tener contenidos de nichos específicos: ilustración, poesía, cómic, temas relacionados con un *fandom* (fanzines). La colección también inclye otras publicaciones que, tal vez, no encajan dentro de la categoría de zine, pero que guardan un cierto espíritu alternativo a formas de publicación masificada o con fines principalmente comerciales.
 
-Y es personal porque es una colección subjetiva construida por una sola persona a lo largo de los años: yo, <a href="srsergiorodriguez.github.io" target="_blank">Sergio Rodríguez Gómez</a>. Este archivo surgió con el interés de sistematizar digitalmente los zines que he conseguido en ferias y tiendas, que he comprado o me han obsequiado sus autores, que yo mismo he hecho, o que me han regalado personas que aprecio. Como es personal, la colección corresponde a mi gusto y no pretende ser exhaustiva o estar libre de sesgos.
+Y es personal porque es una colección subjetiva construida por una sola persona a lo largo de los años: yo, <a href="https://srsergiorodriguez.github.io/" target="_blank">Sergio Rodríguez Gómez</a>. Este archivo surgió con el interés de sistematizar digitalmente los zines que he conseguido en ferias y tiendas, que he comprado o me han obsequiado sus autores, que yo mismo he hecho, o que me han regalado personas que aprecio. Como es personal, la colección corresponde a mi gusto y no pretende ser exhaustiva o estar libre de sesgos.
 
 ### ¿Cómo se construyó este archivo?
 
