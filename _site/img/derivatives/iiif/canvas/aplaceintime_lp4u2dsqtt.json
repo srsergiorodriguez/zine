@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/aplaceintime_lp4u2dsqtt.json",
+  "label": "front",
+  "width": 2246,
+  "height": 3513,
+  "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/annotation/aplaceintime_lp4u2dsqtt.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2246,
+        "height": 3513
+      },
+      "on": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/aplaceintime_lp4u2dsqtt.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

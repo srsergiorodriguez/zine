@@ -1,0 +1,50 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/aplaceintime_lp4u2dsqtt/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "aplaceintime_lp4u2dsqtt",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/aplaceintime_lp4u2dsqtt.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/aplaceintime_lp4u2dsqtt.json",
+          "label": "front",
+          "width": 2246,
+          "height": 3513,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/aplaceintime_lp4u2dsqtt.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2246,
+                "height": 3513
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/aplaceintime_lp4u2dsqtt.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/aplaceintime_lp4u2dsqtt/full/1140,/0/default.jpg"
+}

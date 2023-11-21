@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/franciscogus_lp4uffsine",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2338,
+  "height": 3509,
+  "sizes": [
+    {
+      "width": 2338,
+      "height": 3509
+    },
+    {
+      "width": 250,
+      "height": 375
+    },
+    {
+      "width": 1140,
+      "height": 1711
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

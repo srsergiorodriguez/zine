@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/maestrosinu0_lp4ty26k94",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2480,
+  "height": 3467,
+  "sizes": [
+    {
+      "width": 2480,
+      "height": 3467
+    },
+    {
+      "width": 250,
+      "height": 349
+    },
+    {
+      "width": 1140,
+      "height": 1594
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

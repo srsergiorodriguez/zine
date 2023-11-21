@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/franciscogus_lp4uffsine.json",
+  "label": "front",
+  "width": 2338,
+  "height": 3509,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/franciscogus_lp4uffsine/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/franciscogus_lp4uffsine.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/franciscogus_lp4uffsine/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/franciscogus_lp4uffsine",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2338,
+        "height": 3509
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/franciscogus_lp4uffsine.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

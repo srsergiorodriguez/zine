@@ -1,0 +1,50 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rockmedallo0_lp4ueydkr2/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "rockmedallo0_lp4ueydkr2",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/rockmedallo0_lp4ueydkr2.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/rockmedallo0_lp4ueydkr2.json",
+          "label": "front",
+          "width": 3509,
+          "height": 1480,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/rockmedallo0_lp4ueydkr2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 3509,
+                "height": 1480
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/rockmedallo0_lp4ueydkr2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rockmedallo0_lp4ueydkr2/full/1140,/0/default.jpg"
+}

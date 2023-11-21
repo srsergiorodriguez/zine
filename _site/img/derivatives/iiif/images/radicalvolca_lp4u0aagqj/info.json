@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2480,
+  "height": 3259,
+  "sizes": [
+    {
+      "width": 2480,
+      "height": 3259
+    },
+    {
+      "width": 250,
+      "height": 329
+    },
+    {
+      "width": 1140,
+      "height": 1498
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

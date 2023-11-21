@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/radicalvolca_lp4u0aagqj/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "radicalvolca_lp4u0aagqj",
+  "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/sequence/radicalvolca_lp4u0aagqj.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/radicalvolca_lp4u0aagqj.json",
+          "label": "front",
+          "width": 2480,
+          "height": 3259,
+          "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/annotation/radicalvolca_lp4u0aagqj.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2480,
+                "height": 3259
+              },
+              "on": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/radicalvolca_lp4u0aagqj.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/full/0/default.jpg",
+  "fullwidth": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/1140,/0/default.jpg"
+}

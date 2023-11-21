@@ -1,0 +1,53 @@
+---
+sitemap: false
+---
+/*
+variable declaration
+*/
+
+/* branding */
+$logo: url("{{ '/assets/LogoA99.png' | absolute_url }}");
+
+/* text */
+
+$body-font:       'Noto Serif', serif;
+$heading-font:    'DM Serif Display', serif;
+
+
+/* Image Size */
+
+$thumbnail-height: 140px;
+$thumbnail-width: 140px;
+
+/* colors */
+
+$text-color:      #100c01;
+$bg-color:        #ebe6e6;
+$neutral:         #bdc2c0;
+$viewer-bg:       rgb(32, 34, 36); // Visor de imágenes
+$accent-light:    rgb(13, 20, 27); // Titulo
+$accent-dark:     rgb(16, 115, 82); // Hover
+
+/* viewport sizes */
+
+$max-width:       950px;
+
+/* margins */
+
+$less-margin:     1.0rem;
+$margin:          1.5rem;
+$more-margin:     2.0rem;
+$super-margin:    3.0rem;
+
+
+$viewer-height:   550px;
+$parallax-height: 350px;
+$footer-height:   250px;
+
+/*
+font & asset import
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import 'wax';

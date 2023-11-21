@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/elladooscuro_lp4u2t9rlw.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/elladooscuro_lp4u2t9rlw/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/elladooscuro_lp4u2t9rlw",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 2238,
+    "height": 3513
+  },
+  "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/elladooscuro_lp4u2t9rlw.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

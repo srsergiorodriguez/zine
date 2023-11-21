@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/groundskeepe_lp4uf2r9ka.json",
+  "label": "front",
+  "width": 2609,
+  "height": 2480,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/groundskeepe_lp4uf2r9ka/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/groundskeepe_lp4uf2r9ka.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/groundskeepe_lp4uf2r9ka/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/groundskeepe_lp4uf2r9ka",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2609,
+        "height": 2480
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/groundskeepe_lp4uf2r9ka.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,266 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/zines.json",
+  "@type": "sc:Collection",
+  "label": "zines",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/4530labezaca_lp4ufkpzjg/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "4530labezaca_lp4ufkpzjg"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/abecedariokn_lp4u12vdg8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "abecedariokn_lp4u12vdg8"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/almanaquebri_lp4uettew7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "almanaquebri_lp4uettew7"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/amalgamafilm_lp4u3xa8r6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "amalgamafilm_lp4u3xa8r6"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/antoninpavel_lp4sfoakdu/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "antoninpavel_lp4sfoakdu"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/aplaceintime_lp4u2dsqtt/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "aplaceintime_lp4u2dsqtt"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/atroz0000000_lp4u1qok82/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "atroz0000000_lp4u1qok82"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ayayaysergio_lp4u3sgcl2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ayayaysergio_lp4u3sgcl2"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/badlandasman_lp4udox4ev/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "badlandasman_lp4udox4ev"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/badmuleragma_lp4ugcsge0/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "badmuleragma_lp4ugcsge0"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/basurama0100_lp4uep4k7a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "basurama0100_lp4uep4k7a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/bazuca000000_lp4u1mbbqa/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "bazuca000000_lp4u1mbbqa"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/blackpeoples_lp4u38orvq/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "blackpeoples_lp4u38orvq"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/borderodrigo_lp4u3co3dp/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "borderodrigo_lp4u3co3dp"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canondaeagua_lp4udayf5m/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "canondaeagua_lp4udayf5m"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/cripsgusanil_lp4ufsse7a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "cripsgusanil_lp4ufsse7a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/dondalducklo_lp4u261q2p/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "dondalducklo_lp4u261q2p"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/elefantesyji_lp4ufc0677/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "elefantesyji_lp4ufc0677"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/elfuetesna00_lp4ufwo69j/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "elfuetesna00_lp4ufwo69j"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/elladooscuro_lp4u2t9rlw/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "elladooscuro_lp4u2t9rlw"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/entrelasrama_lp4udf9hm2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "entrelasrama_lp4udf9hm2"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ficciorama92_lp4ualmv0b/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ficciorama92_lp4ualmv0b"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/franciscogus_lp4uffsine/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "franciscogus_lp4uffsine"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/fuzilarmagra_lp4uar8s0h/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "fuzilarmagra_lp4uar8s0h"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/galeriaconce_lp4u0ndpe7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "galeriaconce_lp4u0ndpe7"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/grawlixes2va_lp4u3h4988/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "grawlixes2va_lp4u3h4988"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/grimoriobara_lp4ue4h7nl/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "grimoriobara_lp4ue4h7nl"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/groundskeepe_lp4uf2r9ka/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "groundskeepe_lp4uf2r9ka"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/lacasadelasl_lp4u2jj17s/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lacasadelasl_lp4u2jj17s"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/libroparacol_lp4u2xte44/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "libroparacol_lp4u2xte44"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/maestrosinu0_lp4ty26k94/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "maestrosinu0_lp4ty26k94"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/mastercopyme_lp4uelchmj/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "mastercopyme_lp4uelchmj"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/milagrossins_lp4sfoa5bk/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "milagrossins_lp4sfoa5bk"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/mostrillocon_lp4uecvdza/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "mostrillocon_lp4uecvdza"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/nostalgiajul_lp4u3o1f4g/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "nostalgiajul_lp4u3o1f4g"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/pertenecerka_lp4ug7f0wk/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "pertenecerka_lp4ug7f0wk"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/radicalvolca_lp4u0aagqj/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "radicalvolca_lp4u0aagqj"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rataygusanog_lp4udviz5v/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rataygusanog_lp4udviz5v"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rellena2frix_lp4u15hp9x/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rellena2frix_lp4u15hp9x"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/revistamefis_lp4sfobdfy/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "revistamefis_lp4sfobdfy"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/robotrhapsod_lp4uf753pl/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "robotrhapsod_lp4uf753pl"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rockmedallo0_lp4ueydkr2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rockmedallo0_lp4ueydkr2"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/shortieshake_lp4u0flgvi/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "shortieshake_lp4u0flgvi"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/styliteianma_lp4uegrbgy/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "styliteianma_lp4uegrbgy"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/suenospictor_lp4ufp0k6d/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "suenospictor_lp4ufp0k6d"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/testas2malch_lp4u2onqsm/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "testas2malch_lp4u2onqsm"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/theinvisible_lp4u32w3t0/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "theinvisible_lp4u32w3t0"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/traganubesma_lp4ug2ncv4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "traganubesma_lp4ug2ncv4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/tresvolcan00_lp4u1h5ilq/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "tresvolcan00_lp4u1h5ilq"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/youdontgethe_lp4u1d2hm9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "youdontgethe_lp4u1d2hm9"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zinechungo20_lp4udjjkbt/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zinechungo20_lp4udjjkbt"
+    }
+  ]
+}

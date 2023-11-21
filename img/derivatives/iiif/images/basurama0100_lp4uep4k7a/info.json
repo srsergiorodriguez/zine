@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/basurama0100_lp4uep4k7a",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2517,
+  "height": 2480,
+  "sizes": [
+    {
+      "width": 2517,
+      "height": 2480
+    },
+    {
+      "width": 250,
+      "height": 246
+    },
+    {
+      "width": 1140,
+      "height": 1123
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/sequence/amalgamafilm_lp4u3xa8r6.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/amalgamafilm_lp4u3xa8r6.json",
+      "label": "front",
+      "width": 2255,
+      "height": 3513,
+      "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/amalgamafilm_lp4u3xa8r6/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/annotation/amalgamafilm_lp4u3xa8r6.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/amalgamafilm_lp4u3xa8r6/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/amalgamafilm_lp4u3xa8r6",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2255,
+            "height": 3513
+          },
+          "on": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/amalgamafilm_lp4u3xa8r6.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

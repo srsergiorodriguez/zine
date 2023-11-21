@@ -1,0 +1,38 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/entrelasrama_lp4udf9hm2.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/entrelasrama_lp4udf9hm2.json",
+      "label": "front",
+      "width": 2346,
+      "height": 3509,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/entrelasrama_lp4udf9hm2/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/entrelasrama_lp4udf9hm2.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/entrelasrama_lp4udf9hm2/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/entrelasrama_lp4udf9hm2",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2346,
+            "height": 3509
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/entrelasrama_lp4udf9hm2.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/annotation/radicalvolca_lp4u0aagqj.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/radicalvolca_lp4u0aagqj",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 2480,
+    "height": 3259
+  },
+  "on": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/radicalvolca_lp4u0aagqj.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

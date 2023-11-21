@@ -1,0 +1,43 @@
+--- DOCKER ---
+
+sudo systemctl restart docker
+
+cd '/home/sergio/Documents/GitHub/zine'
+
+docker build -t minicomp/wax .
+
+docker run -it --rm -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash
+
+docker run  -it --rm --platform linux/amd64 -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash // LINUX NORMAL
+
+docker run  -it --rm --platform linux/arm64/v8 -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash // APPLE SILICON
+
+--- WAX SITE ---
+
+gem update --system --no-document
+
+bundle update
+
+bundle exec rake --tasks
+
+bundle exec jekyll serve --livereload --open-url --port 4000 --host 0.0.0.0
+
+--- WAX TASKS ---
+
+bundle exec rake wax:clobber zines # Elimina el build y los dantos anteriores
+
+bundle exec rake wax:derivatives:iiif zines # Construye la infraestructura del servidor de imágenes con el protocolo IIIF
+
+bundle exec rake wax:pages zines # Crea una página por cada elemento de la colección
+
+bundle exec rake wax:search main # Crea un índice de búsqueda para el buscador de la colección
+
+bundle exec jekyll serve --host 0.0.0.0
+
+--- GIT ---
+
+git add .
+
+git commit -m message
+
+git push origin

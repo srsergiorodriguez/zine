@@ -1,0 +1,38 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/rellena2frix_lp4u15hp9x.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/rellena2frix_lp4u15hp9x.json",
+      "label": "front",
+      "width": 2480,
+      "height": 3292,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rellena2frix_lp4u15hp9x/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/rellena2frix_lp4u15hp9x.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rellena2frix_lp4u15hp9x/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/rellena2frix_lp4u15hp9x",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2480,
+            "height": 3292
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/rellena2frix_lp4u15hp9x.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

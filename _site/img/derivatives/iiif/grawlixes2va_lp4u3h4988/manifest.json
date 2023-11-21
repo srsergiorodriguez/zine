@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/grawlixes2va_lp4u3h4988/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "grawlixes2va_lp4u3h4988",
+  "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/sequence/grawlixes2va_lp4u3h4988.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/grawlixes2va_lp4u3h4988.json",
+          "label": "front",
+          "width": 2480,
+          "height": 3317,
+          "thumbnail": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/annotation/grawlixes2va_lp4u3h4988.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2480,
+                "height": 3317
+              },
+              "on": "http://0.0.0.0:4000/zine/img/derivatives/iiif/canvas/grawlixes2va_lp4u3h4988.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988/full/full/0/default.jpg",
+  "fullwidth": "http://0.0.0.0:4000/zine/img/derivatives/iiif/images/grawlixes2va_lp4u3h4988/full/1140,/0/default.jpg"
+}
