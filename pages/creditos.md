@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Créditos y contacto
-permalink: '/credits/'
+permalink: '/creditos/'
 ---
 
 Diseño y construcción del archivo: <a href="srsergiorodriguez.github.io" target="_blank">Sergio Rodríguez Gómez</a>
