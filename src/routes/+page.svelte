@@ -24,7 +24,13 @@
 
 <style>
   .two-columns {
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 800px) {
+    .two-columns {
+      flex-direction: column;
+    }
   }
 </style>

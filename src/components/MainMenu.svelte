@@ -24,7 +24,6 @@
   .menu-list li {
     list-style-type: none;
     font-size: 1.2em;
-    
   }
 
   .menu-link {
@@ -36,5 +35,18 @@
   .menu-link:hover {
     background: var(--fill);
     background: var(--accent2);
+  }
+
+  @media screen and (max-width: 800px) {
+    .menu-list {
+      margin: 1em;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .menu-list {
+      flex-direction: column;
+      margin: 1em;
+    }
   }
 </style>
