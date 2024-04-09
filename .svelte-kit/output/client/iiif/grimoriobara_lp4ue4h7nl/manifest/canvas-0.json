@@ -1,0 +1,30 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/grimoriobara_lp4ue4h7nl/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/grimoriobara_lp4ue4h7nl/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/grimoriobara_lp4ue4h7nl/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://srsergiorodriguez.github.io/zine/iiif/grimoriobara_lp4ue4h7nl/manifest/canvas-0.json",
+          "body": {
+            "id": "https://srsergiorodriguez.github.io/zine/iiif/grimoriobara_lp4ue4h7nl/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 3509,
+            "width": 2180
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2180,
+  "height": 3509,
+  "annotations": []
+}

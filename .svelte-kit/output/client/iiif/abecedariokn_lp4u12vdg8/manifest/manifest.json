@@ -1,0 +1,42 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "El ABECEDARIO"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/manifest/canvas-0.json",
+              "body": {
+                "id": "https://srsergiorodriguez.github.io/zine/iiif/abecedariokn_lp4u12vdg8/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2480,
+                "width": 2534
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 2534,
+      "height": 2480,
+      "annotations": []
+    }
+  ]
+}

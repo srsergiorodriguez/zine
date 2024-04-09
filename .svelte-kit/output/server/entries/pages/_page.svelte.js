@@ -41,7 +41,7 @@ const VCarousel = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   })} </div>`;
 });
 const css = {
-  code: ".two-columns.svelte-umjgv0{display:grid;grid-template-columns:1fr 0.5fr}",
+  code: ".two-columns.svelte-1yslg7q{display:flex;flex-direction:row}@media screen and (max-width: 800px){.two-columns.svelte-1yslg7q{flex-direction:column}}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -49,7 +49,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${validate_component(Home, "Home").$$render($$result, {}, {}, {
     default: () => {
-      return `<div class="two-columns svelte-umjgv0"><div>${validate_component(SvelteMarkdown, "SvelteMarkdown").$$render(
+      return `<div class="two-columns svelte-1yslg7q"><div>${validate_component(SvelteMarkdown, "SvelteMarkdown").$$render(
         $$result,
         {
           source: md,

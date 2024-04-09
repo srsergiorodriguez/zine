@@ -86,7 +86,7 @@ const Default = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<section class="general">${slots.default ? slots.default({}) : ``}</section>`;
 });
 const css$3 = {
-  code: ".menu-list.svelte-1651jtw.svelte-1651jtw{display:flex;gap:1em;justify-content:space-around;padding:0;margin:0}.menu-list.svelte-1651jtw li.svelte-1651jtw{list-style-type:none;font-size:1.2em}.menu-link.svelte-1651jtw.svelte-1651jtw{background:var(--accent2);padding:0.2em;color:var(--fill)}.menu-link.svelte-1651jtw.svelte-1651jtw:hover{background:var(--fill);background:var(--accent2)}",
+  code: ".menu-list.svelte-chrkdp.svelte-chrkdp{display:flex;gap:1em;justify-content:space-around;padding:0;margin:0}.menu-list.svelte-chrkdp li.svelte-chrkdp{list-style-type:none;font-size:1.2em}.menu-link.svelte-chrkdp.svelte-chrkdp{background:var(--accent2);padding:0.2em;color:var(--fill)}.menu-link.svelte-chrkdp.svelte-chrkdp:hover{background:var(--fill);background:var(--accent2)}@media screen and (max-width: 800px){.menu-list.svelte-chrkdp.svelte-chrkdp{margin:1em}}@media screen and (max-width: 500px){.menu-list.svelte-chrkdp.svelte-chrkdp{flex-direction:column;margin:1em}}",
   map: null
 };
 const MainMenu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -94,7 +94,7 @@ const MainMenu = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   $$unsubscribe_t = subscribe(t, (value) => $t = value);
   $$result.css.add(css$3);
   $$unsubscribe_t();
-  return `<nav><ul class="menu-list no-select svelte-1651jtw"><li class="svelte-1651jtw"><a class="silent-link menu-link svelte-1651jtw"${add_attribute("href", base, 0)}>${escape($t.home)}</a></li> <li class="svelte-1651jtw"><a class="silent-link menu-link svelte-1651jtw" href="${escape(base, true) + "/pages"}">${escape($t.explore)}</a></li> <li class="svelte-1651jtw"><a class="silent-link menu-link svelte-1651jtw" href="${escape(base, true) + "/tour"}">${escape($t.tour)}</a></li> <li class="svelte-1651jtw"><a class="silent-link menu-link svelte-1651jtw" href="${escape(base, true) + "/metadata"}">${escape($t.metadata)}</a></li></ul> </nav>`;
+  return `<nav><ul class="menu-list no-select svelte-chrkdp"><li class="svelte-chrkdp"><a class="silent-link menu-link svelte-chrkdp"${add_attribute("href", base, 0)}>${escape($t.home)}</a></li> <li class="svelte-chrkdp"><a class="silent-link menu-link svelte-chrkdp" href="${escape(base, true) + "/pages"}">${escape($t.explore)}</a></li> <li class="svelte-chrkdp"><a class="silent-link menu-link svelte-chrkdp" href="${escape(base, true) + "/tour"}">${escape($t.tour)}</a></li> <li class="svelte-chrkdp"><a class="silent-link menu-link svelte-chrkdp" href="${escape(base, true) + "/metadata"}">${escape($t.metadata)}</a></li></ul> </nav>`;
 });
 const css$2 = {
   code: "a.svelte-1yo817c.svelte-1yo817c{text-decoration:none;color:var(--accent2)}.main-title.svelte-1yo817c.svelte-1yo817c{max-width:600px;font-size:5em;margin:0.1em;padding:0.1em}.main-title.svelte-1yo817c a.svelte-1yo817c{background:var(--accent2);color:var(--fill)}.main-subtitle.svelte-1yo817c.svelte-1yo817c{background:var(--accent2);padding:0.2em;color:var(--fill)}.main-header.svelte-1yo817c.svelte-1yo817c{display:flex;padding:1em;justify-content:space-around;align-items:end;background:var(--accent1);border:solid 1px var(--accent1);flex-direction:row}@media screen and (max-width: 800px){.main-header.svelte-1yo817c.svelte-1yo817c{flex-direction:column;text-align:center;align-items:center}}",
