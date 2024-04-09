@@ -1,0 +1,30 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/tresvolcan00_lp4u1h5ilq/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/tresvolcan00_lp4u1h5ilq/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/tresvolcan00_lp4u1h5ilq/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://srsergiorodriguez.github.io/zine/iiif/tresvolcan00_lp4u1h5ilq/manifest/canvas-0.json",
+          "body": {
+            "id": "https://srsergiorodriguez.github.io/zine/iiif/tresvolcan00_lp4u1h5ilq/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 3134,
+            "width": 2480
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2480,
+  "height": 3134,
+  "annotations": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/mostrillocon_lp4uecvdza/manifest/page-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/mostrillocon_lp4uecvdza/manifest/image-0.json",
+      "items": [],
+      "type": "Annotation",
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "motivation": "painting",
+      "target": "https://srsergiorodriguez.github.io/zine/iiif/mostrillocon_lp4uecvdza/manifest/canvas-0.json",
+      "body": {
+        "id": "https://srsergiorodriguez.github.io/zine/iiif/mostrillocon_lp4uecvdza/0/full/max/0/default.jpg",
+        "type": "Image",
+        "format": "image/jpeg",
+        "height": 3509,
+        "width": 2413
+      }
+    }
+  ],
+  "type": "AnnotationPage"
+}

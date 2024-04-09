@@ -1,0 +1,42 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Zine Chungo 2019"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/manifest/canvas-0.json",
+              "body": {
+                "id": "https://srsergiorodriguez.github.io/zine/iiif/zinechungo20_lp4udjjkbt/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3509,
+                "width": 2321
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 2321,
+      "height": 3509,
+      "annotations": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "45-30"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/manifest/canvas-0.json",
+              "body": {
+                "id": "https://srsergiorodriguez.github.io/zine/iiif/4530labezaca_lp4ufkpzjg/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3467,
+                "width": 2480
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 2480,
+      "height": 3467,
+      "annotations": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+| Dato                | Acción |
+|---                  |---     |
+| npm run config      | Inicia la interfaz CLI de configuración del proyecto. Usar este comando cuando se crea el proyecto por primera vez |
+| npm run clear       | Elimina la carpeta con derivatives IIIF |
+| npm run tasks       | Elimina la carpeta con derivatives IIIF, actualiza los metadatos, el índice de búsqueda, la presentación basada en la configuración y crea nuevos derivatives desde cero |
+| npm run dev         | Elimina la carpeta con derivatives IIIF, actualiza los metadatos, el índice de búsqueda, la presentación basada en la configuración  crea nuevos derivatives desde cero e inicia el servidor local de prueba. Usar este comando cuando se crea la colección por primera vez |
+| npm run preview     | Inicia el servidor local de prueba sin modificar los metadatos o derivatives de la colección y sin actualizar la presentación basada en la configuración. Usar este comando cuando solo se quiere modificar el contenido o la apariencia del sitio |
+| npm run update      | Actualiza los metadatos, y crea derivatives solo para nuevos ítems. Este commando evita tiempo de procesamiento cuando solo se quiere extender la colección con más elementos o actualizar la presentación basada en el archivo de configuración |
+| npm run build       | Crea una versión de producción. Usar este comando cuando se quiere publicar una nueva versión del sitio |

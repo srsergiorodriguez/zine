@@ -1,0 +1,15 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/entrelasrama_lp4udf9hm2/manifest/image-0.json",
+  "items": [],
+  "type": "Annotation",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "motivation": "painting",
+  "target": "https://srsergiorodriguez.github.io/zine/iiif/entrelasrama_lp4udf9hm2/manifest/canvas-0.json",
+  "body": {
+    "id": "https://srsergiorodriguez.github.io/zine/iiif/entrelasrama_lp4udf9hm2/0/full/max/0/default.jpg",
+    "type": "Image",
+    "format": "image/jpeg",
+    "height": 3509,
+    "width": 2346
+  }
+}

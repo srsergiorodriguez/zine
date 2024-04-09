@@ -1,0 +1,30 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/aplaceintime_lp4u2dsqtt/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/aplaceintime_lp4u2dsqtt/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/aplaceintime_lp4u2dsqtt/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://srsergiorodriguez.github.io/zine/iiif/aplaceintime_lp4u2dsqtt/manifest/canvas-0.json",
+          "body": {
+            "id": "https://srsergiorodriguez.github.io/zine/iiif/aplaceintime_lp4u2dsqtt/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 3513,
+            "width": 2246
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2246,
+  "height": 3513,
+  "annotations": []
+}

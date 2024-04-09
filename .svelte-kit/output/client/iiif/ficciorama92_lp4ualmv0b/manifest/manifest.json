@@ -1,0 +1,42 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Ficciorama 92"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/manifest/canvas-0.json",
+              "body": {
+                "id": "https://srsergiorodriguez.github.io/zine/iiif/ficciorama92_lp4ualmv0b/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3225,
+                "width": 2480
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 2480,
+      "height": 3225,
+      "annotations": []
+    }
+  ]
+}

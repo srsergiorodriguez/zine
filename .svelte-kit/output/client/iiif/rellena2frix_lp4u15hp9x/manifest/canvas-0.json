@@ -1,0 +1,30 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/rellena2frix_lp4u15hp9x/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/rellena2frix_lp4u15hp9x/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/rellena2frix_lp4u15hp9x/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://srsergiorodriguez.github.io/zine/iiif/rellena2frix_lp4u15hp9x/manifest/canvas-0.json",
+          "body": {
+            "id": "https://srsergiorodriguez.github.io/zine/iiif/rellena2frix_lp4u15hp9x/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 3292,
+            "width": 2480
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2480,
+  "height": 3292,
+  "annotations": []
+}

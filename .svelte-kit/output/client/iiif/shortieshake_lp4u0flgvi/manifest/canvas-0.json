@@ -1,0 +1,30 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/shortieshake_lp4u0flgvi/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://srsergiorodriguez.github.io/zine/iiif/shortieshake_lp4u0flgvi/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://srsergiorodriguez.github.io/zine/iiif/shortieshake_lp4u0flgvi/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://srsergiorodriguez.github.io/zine/iiif/shortieshake_lp4u0flgvi/manifest/canvas-0.json",
+          "body": {
+            "id": "https://srsergiorodriguez.github.io/zine/iiif/shortieshake_lp4u0flgvi/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 2480,
+            "width": 2550
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2550,
+  "height": 2480,
+  "annotations": []
+}

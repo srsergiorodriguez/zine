@@ -1,0 +1,15 @@
+{
+  "id": "https://srsergiorodriguez.github.io/zine/iiif/theinvisible_lp4u32w3t0/manifest/image-0.json",
+  "items": [],
+  "type": "Annotation",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "motivation": "painting",
+  "target": "https://srsergiorodriguez.github.io/zine/iiif/theinvisible_lp4u32w3t0/manifest/canvas-0.json",
+  "body": {
+    "id": "https://srsergiorodriguez.github.io/zine/iiif/theinvisible_lp4u32w3t0/0/full/max/0/default.jpg",
+    "type": "Image",
+    "format": "image/jpeg",
+    "height": 3509,
+    "width": 2213
+  }
+}
