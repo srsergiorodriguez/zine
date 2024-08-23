@@ -1,8 +1,8 @@
 <script>
-  import Page from "../../../layouts/Page.svelte";
-  import IIIFViewer from "../../../components/IIIFViewer.svelte";
-  import MetadataCard from "../../../components/MetadataCard.svelte";
-  import serieConfig from "../../../config/serie.config";
+  import Page from "$layouts/Page.svelte";
+  import IIIFViewer from "$components/IIIFViewer.svelte";
+  import MetadataCard from "$components/MetadataCard.svelte";
+  import serieConfig from "$config/serie.config";
 
   export let data;
 
@@ -10,10 +10,14 @@
   const pagesConfig = serieConfig.pages;
 </script>
 
-<Page>
+<svelte:head>
+  <title>{`${itemMetadata.label} - ${serieConfig.title}`}</title>
+</svelte:head>
+
+<Page name={itemMetadata.label}>
   <h1>{itemMetadata.label}</h1>
 
-  {#if pagesConfig.iiifViewer && itemMetadata._images > 0}
+  {#if pagesConfig.iiifViewer}
     <IIIFViewer pid={itemMetadata.pid} />
   {/if}
 

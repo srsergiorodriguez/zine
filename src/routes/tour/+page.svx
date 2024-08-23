@@ -1,0 +1,31 @@
+---
+name: tour
+layout: page
+---
+
+<script>
+  import ItemPreview from '$components/ItemPreview.svelte';
+  import VizTimeline from '$components/VizTimeline.svelte';
+  import VizBarChart from '$components/VizBarChart.svelte';
+  import VizHistogram from '$components/VizHistogram.svelte';
+  import VizTree from '$components/VizTree.svelte';
+</script>
+
+# La colección
+
+Esta colección contiene fanzines entre 2006 y el presente, aproximadamente. Haz clic en los círculos de esta línea de tiempo para filtrar publicaciones por fecha:
+
+<VizTimeline dateKey="fecha"/>
+
+Aunque los fanzines pueden tener distintos tipos de contenido, en esta colección hay principalmente publicaciones centradas en la ilustración y el cómic:
+
+<VizBarChart key="tipo_principal"/>
+
+Adicionalmente, los fanzines fueron producidos a través de distintos tipos de medios de impresión:
+
+<VizBarChart key="medio_impresion"/>
+
+Este árbol muestra los lugares de publicación de los fanzines de la colección:
+
+<VizTree keys={["pais", "ciudad"]}/>
+

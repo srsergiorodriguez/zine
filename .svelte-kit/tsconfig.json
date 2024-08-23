@@ -1,6 +1,49 @@
 {
 	"compilerOptions": {
-		"paths": {},
+		"paths": {
+			"$routes": [
+				"../src/routes"
+			],
+			"$routes/*": [
+				"../src/routes/*"
+			],
+			"$components": [
+				"../src/lib/components"
+			],
+			"$components/*": [
+				"../src/lib/components/*"
+			],
+			"$layouts": [
+				"../src/lib/layouts"
+			],
+			"$layouts/*": [
+				"../src/lib/layouts/*"
+			],
+			"$stores": [
+				"../src/lib/stores"
+			],
+			"$stores/*": [
+				"../src/lib/stores/*"
+			],
+			"$data": [
+				"../src/routes/data"
+			],
+			"$data/*": [
+				"../src/routes/data/*"
+			],
+			"$config": [
+				"../src/config"
+			],
+			"$config/*": [
+				"../src/config/*"
+			],
+			"$lib": [
+				"../src/lib"
+			],
+			"$lib/*": [
+				"../src/lib/*"
+			]
+		},
 		"rootDirs": [
 			"..",
 			"./types"

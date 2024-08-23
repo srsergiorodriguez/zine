@@ -1,7 +1,7 @@
-import { m as metadata } from "../../../chunks/metadata.js";
+import { p as projectMetadata } from "../../../chunks/metadata.js";
 async function load({ params }) {
   return {
-    metadata
+    projectMetadata
   };
 }
 const prerender = true;
